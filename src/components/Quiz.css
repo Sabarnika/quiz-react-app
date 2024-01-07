@@ -1,0 +1,48 @@
+.container {
+  width: 450px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  background: white;
+  color: #262626;
+  border-radius: 10px;
+  padding: 40px 50px;
+  margin-top: 50px;
+}
+
+.container hr {
+  width: 100%;
+}
+.container ul li {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container button {
+  color: white;
+  background-color: #553f9a;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+  margin: auto;
+}
+
+.out-of {
+  margin-top: 10px;
+  text-align: center;
+}
+.container .correct {
+  background-color: rgb(172, 236, 215);
+  border-color: rgb(11, 94, 29);
+}
+.container .wrong {
+  border-color: rgb(136, 28, 28);
+  background-color: rgb(221, 135, 135);
+}
